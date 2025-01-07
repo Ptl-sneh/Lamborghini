@@ -1,0 +1,28 @@
+/* Submenu styles */
+.submenu {
+    display: none;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    /* z-index: 1000; */
+    width: 200px;
+}
+
+.nav-item:hover .submenu {
+    display: block;
+    /* Show the submenu */
+}
+
+/* Submenu links */
+.submenu .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.submenu .nav-link:hover {
+    background-color: #f8c471;
+    /* Highlight color */
+    color: #000;
+    /* Text color on hover */
+}
